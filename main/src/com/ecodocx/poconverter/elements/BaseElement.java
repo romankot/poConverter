@@ -1,13 +1,16 @@
 package com.ecodocx.poconverter.elements;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Roman on 8/8/2016.
  */
 public class BaseElement {
     String line;
-    String name;
-    float x;
-    float y;
+    String type;
+
+    List<BaseElement> childrenList = new ArrayList<>();
 
     public boolean isComplex() {
         return BaseElement.isComplex(line);
@@ -15,18 +18,30 @@ public class BaseElement {
     public static boolean isComplex(String trim) {
         if (trim.startsWith("Sheet") ||
             trim.startsWith("Block") ||
-            trim.startsWith("Frame")    ) {
+            trim.startsWith("Frame") ||
+            trim.startsWith("Script")  ) {
             return true;
         }
         else return false;
     }
 
-    enum Elements {Sheet, Text, End, Line, Variable, Overlay, Frame, Block,
-                    Field, Rect, FrameRef, ProcPageOfPages, Date};
-    public static boolean contains(String test) {
+    public void accept(BaseElementVisitor visitor) {
+        visitor.visit(this);
+        for (BaseElement element: this.childrenList){
+            element.accept(visitor);
+        }
+    }
 
+    public int getChildrenNumber() {
+        return childrenList.size();
+    }
+
+    enum Elements {Sheet, Text, End, Line, Variable, Overlay, Frame, Block,
+                    Field, Rect, ProcPageOfPages, Date, Script};
+    public static boolean isValid(String testString) {
+        String fword = testString.split(" ")[0];
         for (Elements c : Elements.values()) {
-            if (c.name().startsWith(test)) {
+            if (fword.contentEquals(c.name())) {
                 return true;
             }
         }
@@ -34,10 +49,16 @@ public class BaseElement {
     }
 
     public BaseElement(String line) {
-        name = line.substring(0, line.indexOf(' '));
+        this.line = line;
+        String words[] = line.split("\\s+");
+        type = words[0];
+    }
+
+    public String getType() {
+        return type;
     }
 
     public void addChild(BaseElement element){
-
+        childrenList.add(element);
     }
 }

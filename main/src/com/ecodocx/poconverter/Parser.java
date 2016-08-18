@@ -1,8 +1,6 @@
 package com.ecodocx.poconverter;
 
 import com.ecodocx.poconverter.elements.BaseElement;
-import com.ecodocx.poconverter.elements.Sheet;
-import com.ecodocx.poconverter.elements.Text;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,67 +12,41 @@ import java.util.LinkedList;
 public class Parser {
 
     private BufferedReader reader;
-    private Process process;
-    private BaseElement element;
+    private BaseElement root;
     private LinkedList<BaseElement> stack;
-    private String prevElement;
-    private int lineCount = 0;
     private BaseElement currElem;
+    private String line;
+    private BaseElement parent;
 
     Parser(BufferedReader reader) {
         this.reader = reader;
+        stack = new LinkedList<>();
     }
 
-    public void start() throws IOException {
-        String line = null;
+    public BaseElement getModel() throws IOException {
+
+        root = new BaseElement("Root element");
+        stack.push(root);
+        parent = root;
+
         while ((line = reader.readLine()) != null) {
-            if (BaseElement.contains(line.trim())) {
-                lineCount++;
-
-                element = parseLine(line.trim());
-                if (element != null ) {   // leaf
-                    if ((currElem = getFirstComplexElement()) != null ) { //inside block
-                        currElem.addChild(Factory.makeElement(line));
-                    } else {
-                        process.addElement(element);
+            if (BaseElement.isValid(line.trim()) || parent.getType().equals("Script")) {
+                currElem = Factory.makeElement(line.trim(), parent.getType().equals("Script"));
+                if (currElem.isComplex()) {
+                    stack.push(currElem);
+                    parent.addChild(currElem);
+                    parent = currElem;
+                }
+                else
+                    if (currElem.getType().equals("End")) { // ending complex object
+                        stack.pop();
+                        parent = stack.peek();
                     }
-                }
-                else {  //branch
-
-                }
-                prevElement = line.substring(0, line.indexOf(' ')) + "_" + lineCount;
+                    else { // just element. add as child
+                        parent.addChild(currElem);
+                    }
             }
         }
-    }
-
-    BaseElement parseLine(String line) {
-
-        if (line.equals("End")) {
-            return null;
-        }
-
-        if (line.startsWith("Sheet") ||
-            line.trim().startsWith("Frame") ||
-            line.trim().startsWith("Block")) {
-                return parseBlockElement(line); // give block type , fabric method
-        }
-
-        return new Text(line);
-    }
-
-    private BaseElement parseBlockElement(String line) {
-        String type = line.substring(0, line.indexOf(' '));
-        switch (type) {
-            case "Sheet":
-                stack.addFirst(new Sheet(line));
-                break;
-        }
-    }
-
-    BaseElement getFirstComplexElement() {
-        for (BaseElement element : stack ) {
-            if (element.isComplex())
-                return element;
-        }
+        return root;
     }
 }
