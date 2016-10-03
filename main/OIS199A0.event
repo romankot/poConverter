@@ -1,0 +1,66 @@
+StreamIn
+// Generated with StreamIN
+// Wed 5/1-2011, 18:29:51
+  Root Name "Message"
+    Field "A0DSUSS" Keepsp
+    Field "A0PRCOPY" Keepsp
+    Field "A0PRHOLD" Keepsp
+    Field "A0PRLANC" Keepsp
+    Field "A0PRLSAD" Keepsp
+    Field "A0PRLSID" Keepsp
+    Field "A0PROUTQ" Keepsp
+    Field "A0PRSAVE" Keepsp
+    Field "A0WDROW3" Keepsp
+    Field "A0WFACDT" Keepsp
+    Field "A0WFIDAT" Keepsp
+    Field "A0XFDLDT" Keepsp
+    Field "A0XTDLDT" Keepsp
+    Field "A0ZDROW2" Keepsp
+    Field "A0ZFBCCC" Keepsp
+    Field "A0ZFCONN" Keepsp
+    Field "A0ZFDIVI" Keepsp
+    Field "A0ZFDLIX" Keepsp
+    Field "A0ZFDNNO" Keepsp
+    Field "A0ZFFACI" Keepsp
+    Field "A0ZFIVGP" Keepsp
+    Field "A0ZFOPRI" Keepsp
+    Field "A0ZFORNO" Keepsp
+    Field "A0ZFORTP" Keepsp
+    Field "A0ZFPAIC" Keepsp
+    Field "A0ZFPICD" Keepsp
+    Field "A0ZFPLRI" Keepsp
+    Field "A0ZFPYNO" Keepsp
+    Field "A0ZFWHLO" Keepsp
+    Field "A0ZTCONN" Keepsp
+    Field "A0ZTDLIX" Keepsp
+    Field "A0ZTDNNO" Keepsp
+    Field "A0ZTFACI" Keepsp
+    Field "A0ZTIVGP" Keepsp
+    Field "A0ZTOPRI" Keepsp
+    Field "A0ZTORNO" Keepsp
+    Field "A0ZTORTP" Keepsp
+    Field "A0ZTPLRI" Keepsp
+    Field "A0ZTPYNO" Keepsp
+    Field "A0ZTWHLO" Keepsp
+    Field "A0ZWLITX" Keepsp
+    Field "A0Z1DLIX" Keepsp
+    Field "A0Z1ORNO" Keepsp
+    Field "A0Z1WHLO" Keepsp
+    Field "A0Z2DLIX" Keepsp
+    Field "A0Z2ORNO" Keepsp
+    Field "A0Z2WHLO" Keepsp
+    Field "A0Z3DLIX" Keepsp
+    Field "A0Z3ORNO" Keepsp
+    Field "A0Z3WHLO" Keepsp
+    Field "A0Z4DLIX" Keepsp
+    Field "A0Z4ORNO" Keepsp
+    Field "A0Z4WHLO" Keepsp
+    Field "A0Z5DLIX" Keepsp
+    Field "A0Z5ORNO" Keepsp
+    Field "A0Z5WHLO" Keepsp
+    Field "A0ZLDLIX"
+    Field "A0ZHDLIX"
+    Field "A0PADAT"
+    Field "A0PATIM"
+    Field "A0INDCTR" $A0INDCTR Keepsp
+  End
