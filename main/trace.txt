@@ -1,0 +1,2182 @@
+﻿********** RunScript 2016/09/30 19:41:24 **********
+2016/09/30 19:41:24  9vj3cu6z [RunScript:JobStart] Version: '3.0.005.07'. Command args: '-script=./makeXatwXML.js -trace=trace.txt -logfile=./log.txt -in="./Perkins 1 OIS199PF.txt" $B=c:/Users/Roman/IdeaProjects/poConverter/main $E=C:/DocOrigin3.0/DO/Bin $R=C:/DocOrigin3.0 $N=RunScript $U=$R/User $O=$U/Overrides $F=$U/Forms $C=$U/Config $S=$U/Forms $L=$U/Logs -message=$E/DocOrigin_EN.xml'.
+2016/09/30 19:41:24  9vj3cu6z [RunScript:UserName] Logon user name: 'Smart\Roman'.
+  script='./makeXatwXML.js'
+
+
+**Loading external script from file './makeXatwXML.js'...
+  **Include script from file 'c:./event.txt'...
+**Compiling and Executing Script...
+**Script file open Success. File='./Perkins 1 OIS199PF.txt' mode='r' ...
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0INDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0DSUSS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0PADAT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0PATIM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0PRCOPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0WDROW3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0WFACDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0WFIDAT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZDROW2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFBCCC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFCONN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFDIVI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFOPRI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFORNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFPAIC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZFPICD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZTCONN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZTOPRI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for A0ZTORNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCDLNRE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCTTXDE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCTTXRE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOACUOR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAECTT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORSL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORTP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAPYCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARESP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARLHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARLHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOASMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOATIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACONN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUADLTM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAFACI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAINRC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAPYNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUATEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUATEPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHCONO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHDIVI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHFACI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIDLIX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIIVNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIORNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFCUDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDUDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFORDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTCUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTIICT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTIIC2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTRESP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTECD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTEPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWWIICT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWWIIPC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWXCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXAGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXANEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXECURD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEDLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEDMDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEFDDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEFDED
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEIDAT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXELDED
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEOTDP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXERLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXERLDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXCSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPHNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPONO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPUSN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX2CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX3CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZPLSS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZPRIC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZCUCL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA01
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA02
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA03
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCFI5
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMUNMS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LM9ECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBAGNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBALUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATNR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV7
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV8
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV9
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCFIN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCUOR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDLTS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBITDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBLTYP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORCO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBPRRF
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRORN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBITNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPONR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPOSX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSACD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSPUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBLNAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBNESI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSAPR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSBTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBTED1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWCSNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWVTCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIA5
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIA6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEATV3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEEDFP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXELNA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEORQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXFUDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXWHNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LX2TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LITTY40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCHCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMITTY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWZTX40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWZZPRA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTTX40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTTX40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNCHAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNORAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNORTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNTDIA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SXXPYCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNORTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNTOPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNVTBA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TXTGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TXTNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNORAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWZTOQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0YINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0YUACUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0YWYCDPC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0YWYLDAT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0YWYTCAS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0YWYTPAY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCDLNRE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCTTXDE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCTTXRE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAECTT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORSL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORTP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAPYCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARESP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARLHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARLHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOASMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOATIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACONN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUADLTM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAFACI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAINRC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAPYNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUATEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUATEPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHCONO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHDIVI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHFACI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIDLIX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIIVNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIORNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFCUDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDUDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFORDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTCUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTRESP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTECD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTEPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWXCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXAGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXANEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXECURD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEDLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEDMDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEFDDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEFDED
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEIDAT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXELDED
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEOTDP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXERLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXERLDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXTGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXCSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPHNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPONO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPUSN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX2CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX3CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZPLSS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZPRIC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZCUCL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZACNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA01
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA02
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA03
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCFI5
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMUNMS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LM9ECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBAGNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBALUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATNR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV7
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV9
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCFIN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDLTS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBITDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBJDCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBLTYP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORCO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBPRRF
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRORN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBITNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPONR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPOSX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSACD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSPUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBLNAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBNESI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSAPR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSBTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBTED1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWCSNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWVTCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIA6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIP1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEEDFP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXELNA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEORQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXFUDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXWHNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LX2TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LITTY40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCHCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMITTY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWZZPRA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTTX40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNORAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNORTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNTDIA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SXXPYCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNORTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNTOPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNVTBA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TXTGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TXTNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNORAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWZTOQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCDLNRE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCTTXDE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HCTTXRE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HDACUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOACUOR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAECTT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORSL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAORTP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAPYCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARESP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARLHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOARLHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOASMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOATIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HOAWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HPYCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACONN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUACUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUADLTM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAFACI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAINRC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUAPYNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUATEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUATEPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHCONO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHDIVI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUHFACI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIDLIX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIIVNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIORNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HUIWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFCUDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFDUDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWFORDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTCUCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTRESP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTECD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWTTEPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWXCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXAGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXANEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXAVOL3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXCCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXECURD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEDLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEDMDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEFDDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEFDED
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEIDAT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXELDED
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXEOTDP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXERLDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXERLDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXTGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXCSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPHNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPONO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HXXPUSN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX1TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX2CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HX3CUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZPLSS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZPRIC
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZCUCL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0HWZACNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA01
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA02
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0ZWZDA03
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCFI5
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMUNMS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LM9ECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBAGNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBALUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATNR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV7
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV8
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV9
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCFIN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCUOR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDLTS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBITDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBJDCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBLTYP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORCO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBPRRF
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRORN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBITNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPONR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPOSX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSACD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSPUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBLNAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBNESI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSAPR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSBTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBTED1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWCSNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWVTCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIA6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIP1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEATV3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEEDFP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXELNA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEORQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXFUDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXWHNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LX2TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LITTY40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCHCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMITTY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWZZPRA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTTX40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUA4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LDLCUNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCFI5
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMUNMS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LM9ECAR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBADID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBAGNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBALUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATNR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV7
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV8
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBATV9
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCFIN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCOHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBCUOR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDLTS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBDWHZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBITDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBJDCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBLTYP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBMODL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORCO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBORST
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBPRRF
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRORN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBRSCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBSMCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDL
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTEDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LOBTIZO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBITNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPONR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBPOSX
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSACD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSPUN
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBSUNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LUBWHLO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBCIME
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBLNAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBMOD1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBNESI
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSAPR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBSBTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWBTED1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWCSNO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWWVTCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIA6
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXBDIP1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEATV3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXECODZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEDWDZ
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEEDFP
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEIVQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXELNA2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXEORQT
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXFUDS
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LXXWHNM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LX2TEPA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LITTY40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMCHCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE1
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE2
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE3
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMHIE4
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LMMITTY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0LWZZPRA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTDIAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0DWTTX40
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWWTX60
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for CFWZATID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRD0
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IO7CRID
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0IWNITAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNORAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNORTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SWNTDIA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0SXXPYCD
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TINDCTR
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNORTO
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNTOPY
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNVTBA
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TXTGRWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TXTNEWE
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWNORAM
+2016/09/30 19:41:24  9vj3cu6z [RunScript:] looking for 0TWZTOQT
+
+**Script-generated XML in file './outforMerge.xml'
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLData>
+<Document>
+  <OIS199A0>
+    <A0INDCTR>000000000000000000000000000000000000000000000000001000010000000000000000000000001000000100000000000</A0INDCTR>
+    <A0DSUSS>SAPERKINS</A0DSUSS>
+    <A0PADAT>08-11-16</A0PADAT>
+    <A0PATIM>14:15:17</A0PATIM>
+    <A0PRCOPY>000</A0PRCOPY>
+    <A0WDROW3>Development Environment, United States, Division 010</A0WDROW3>
+    <A0WFACDT>081116</A0WFACDT>
+    <A0WFIDAT>081116</A0WFIDAT>
+    <A0ZDROW2>United States</A0ZDROW2>
+    <A0ZFBCCC>2</A0ZFBCCC>
+    <A0ZFCONN>0000000</A0ZFCONN>
+    <A0ZFDIVI>010</A0ZFDIVI>
+    <A0ZFOPRI>0</A0ZFOPRI>
+    <A0ZFORNO>3012054129</A0ZFORNO>
+    <A0ZFPAIC>1</A0ZFPAIC>
+    <A0ZFPICD>2</A0ZFPICD>
+    <A0ZTCONN>0000000</A0ZTCONN>
+    <A0ZTOPRI>9</A0ZTOPRI>
+    <A0ZTORNO>3012054131</A0ZTORNO>
+    <OIS1990H>
+000000000000000000000000000000000000000000000000001100000000000000000101000000001000000100001010000
+GB
+USA
+USA
+26680 COUNTRY CLUB DR
+BONITA SPRINGS FL 34134-4301
+BONITA BAY CLUB
+8158 8159 10459
+0
+77
+77
+USA
+CHK
+SAPERKINS
+1518
+1518
+USHM
+ESTUS
+04B
+26660 COUNTRY CLUB DR
+BONITA SPRINGS FL 34134-4301
+BONITA BAY CLUB INC
+000001
+0000000
+USD
+US00032279
+140333
+030
+US00009387
+F00
+US00009387
+PPC
+060
+001
+010
+030
+       7364090
+902355816
+3012054131
+03A
+08/10/16
+08/11/16
+08/11/16
+10/10/16
+08/10/16
+US Dollar
+US 18% Interest
+US 18% Interest Rule
+FedEx Ground
+Sarah Perkins
+Steve Taylor
+2% 30 Days
+Pre Paid Unit Charge
+Net 60 Days
+US1
+18.00
+0
+    64.936
+    61.728
+26680 COUNTRY CLUB DR
+BONITA SPRINGS FL 34134-4301
+BONITA BAY CLUB
+00/00/00
+08/11/16
+00/00/00
+00/00/00
+12/01/15
+08/11/16
+01/03/18
+        0.00
+08/10/16
+08/10/16
+US
+FL
+239-495-0200
+34134-4301
+060230
+26660 COUNTRY CLUB DR
+BONITA SPRINGS FL 34134-4301
+BONITA BAY CLUB INC
+No VAS required
+BONITA BAY CLUB
+BONITA BAY CLUB INC
+1
+1
+US0
+000000000000000000000000000000000000000000000000001100000000000000000101000000001000000100001010000
+Acushnet Company
+P.O. Box 88112
+Chicago, IL 60695-1112
+000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100011010000
+26680 COUNTRY CLUB DR
+BONITA SPRINGS FL 34134-4301
+BONITA BAY CLUB
+C
+DZ
+MA
+000001
+USTPT2P
+DZ
+     20160810049196300
+AUTO GLASS SERV
+BCT-03-20
+BPB12A4
+20243
+CRP
+      3229752
+0500
+0500
+8158 8159 10459
+0000
+1518
+1518
+Titl Pro V1 Cstm Pk
+1
+FXG
+US
+77
+A6
+3362151
+NA
+USHM
+PPC
+Titleist Pro V1 Custom
+ESTUS
+T2024C-12PCL
+    1
+00
+00001
+DZ
+0
+03A
+0
+              -624.00
+            96
+            4,176.00
+FedEx Ground
+0
+               37.00
+0
+Pre Paid Unit Charge
+9506.32.0000
+00
+              4-
+            2.5-
+     20243
+09/06/16
+09/06/16
+08/10/16
+08/10/16
+         0.00
+            96
+            96
+            96
+      4,176.00
+            96
+Titleist Pro V1 Custom
+    61.728
+    61.728
+US Custom Ball
+No VAS required
+Balls - Finished Goods
+3
+A1
+A110
+A110100
+A110100100
+001
+Titleist Partner Terms 2% 30, Net 60
+0
+000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100011010000
+      384.00-
+Customization
+000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100011010000
+      240.00-
+Logo Fee
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Order Type| AT ONCE</CFWWTX60>
+      <CFWZATID>BC100</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Custom Type| Single Logo</CFWWTX60>
+      <CFWZATID>BC110</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Location 1| Aligned with Side Stamp</CFWWTX60>
+      <CFWZATID>BL001</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Logo 1-ID|20243</CFWWTX60>
+      <CFWZATID>BL010</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Logo 1-Desc| AUTO GLASS SERVICE **ACL**</CFWWTX60>
+      <CFWZATID>BL015</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 1| 1788</CFWWTX60>
+      <CFWZATID>BL031</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 2| 287</CFWWTX60>
+      <CFWZATID>BL032</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 3| ~NA</CFWWTX60>
+      <CFWZATID>BL033</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 4| ~NA</CFWWTX60>
+      <CFWZATID>BL034</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 5| ~NA</CFWWTX60>
+      <CFWZATID>BL035</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 6|</CFWWTX60>
+      <CFWZATID>BL036</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Text Case|</CFWWTX60>
+      <CFWZATID>BI037</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+      <CFWZATID>BI025</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+      <CFWZATID>BI035</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Location 2|</CFWWTX60>
+      <CFWZATID>BL038</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Logo 2-ID|0</CFWWTX60>
+      <CFWZATID>BL040</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 1|</CFWWTX60>
+      <CFWZATID>BL061</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 2|</CFWWTX60>
+      <CFWZATID>BL062</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 3|</CFWWTX60>
+      <CFWZATID>BL063</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 4|</CFWWTX60>
+      <CFWZATID>BL064</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 5|</CFWWTX60>
+      <CFWZATID>BL065</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Pantone Color 6|</CFWWTX60>
+      <CFWZATID>BL066</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Text Case|</CFWWTX60>
+      <CFWZATID>BI067</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+      <CFWZATID>BI055</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+      <CFWZATID>BI065</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Package Option| PackEdge Dozen</CFWWTX60>
+      <CFWZATID>BPP00</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Package Logo ID|27064</CFWWTX60>
+      <CFWZATID>BL100</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Package Logo Desc| MRP Test</CFWWTX60>
+      <CFWZATID>BL105</CFWZATID>
+      <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000000001000000100000010010</CFINDCTR>
+      <CFWWTX60>Ball Number| Low #  Custom</CFWWTX60>
+      <CFWZATID>BC023</CFWZATID>
+000000000000000001100000000000000000000000000000001100000000000000000001000000101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD20
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000000101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD21
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000000101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD22
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000000101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD23
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000000101000000100001010000
+Corporate Custom S&amp;H
+USTS20
+      120.00
+000000000000000001100000000000000000000000000000001100000001000010000001000000101000000100001010000
+        120.00
+            4,296.00
+            4,176.00
+              624.00-
+Check
+000000000000000001100000000000000000000000000000001100000001000010000001000100101000000100001010000
+            4,296.00
+            4,296.00
+                0.00
+    61.728
+    61.728
+            4,296.00
+              96
+000000000000000001100000000000000000000000000000001100000001000010000001000100101000000100001010000
+USD
+ 2.00
+09/10/16
+         83.52
+      4,212.48
+      <OIS1990H>
+000000000000000001100000000000000000000000000000001100000000000010000101000100101000000100001010000
+GB
+USA
+USA
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+0
+77
+77
+USY
+CHK
+SAPERKINS
+1455
+1255
+USKI
+CSTUS
+04B
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS INC
+000001
+0000000
+USD
+US00200146
+140339
+030
+US00017076
+U01
+US00017076
+COL
+060
+001
+010
+030
+       7364086
+902355814
+3012054129
+03A
+08/10/16
+08/11/16
+08/11/16
+10/10/16
+08/10/16
+US Dollar
+UPS Ground
+Sarah Perkins
+National Custom
+NA
+Freight Collect
+Net 60 Days
+0
+     8.251
+     7.752
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+00/00/00
+08/11/16
+00/00/00
+00/00/00
+12/01/15
+08/11/16
+01/03/18
+        0.00
+08/10/16
+08/10/16
+    61.728
+US
+WI
+847-470-8930
+53105-2300
+060000
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS INC
+No VAS required
+PRO GOLF PREMIUMS
+PRO GOLF PREMIUMS INC
+1
+1
+US4
+0173Y9
+000000000000000001100000000000000000000000000000001100000000000010000101000100101000000100001010000
+Acushnet Company
+P.O. Box 88114
+Chicago, IL 60695-1114
+000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100011010000
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+C
+DZ
+MA
+000001
+UST6COA
+DZ
+     20160810049196200
+BCT-01-10
+BPA12A6
+PER
+      3229749
+0500
+0300
+0000
+1455
+1255
+Titl Pro V1 Cstm
+XXX
+1
+UOY
+US
+77
+A6
+3362148
+NA
+USKI
+COL
+Titleist Pro V1 Custom
+CSTUS
+T2024C-12PL
+    1
+00
+00001
+DZ
+0
+03A
+0
+                 8.40
+            12
+              435.60
+UPS Only
+0
+               37.00
+0
+Freight Collect
+9506.32.0000
+00
+              3-
+    10
+08/29/16
+08/29/16
+08/10/16
+08/10/16
+         0.00
+            12
+            12
+            12
+        480.00
+            12
+Titleist Pro V1 Custom
+     7.752
+     7.752
+US Custom Ball
+No VAS required
+Balls - Finished Goods
+3
+A1
+A110
+A110100
+A110100100
+001
+0
+000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100011010000
+       36.00-
+Logo Fee
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Order Type|</CFWWTX60>
+        <CFWZATID>BC100</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Custom Type| Single Imprint</CFWWTX60>
+        <CFWZATID>BC110</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Location 1| Aligned with Side Stamp</CFWWTX60>
+        <CFWZATID>BL001</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Logo 1-ID|0</CFWWTX60>
+        <CFWZATID>BL010</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 1|</CFWWTX60>
+        <CFWZATID>BL031</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 2|</CFWWTX60>
+        <CFWZATID>BL032</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 3|</CFWWTX60>
+        <CFWZATID>BL033</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 4|</CFWWTX60>
+        <CFWZATID>BL034</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 5|</CFWWTX60>
+        <CFWZATID>BL035</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 6|</CFWWTX60>
+        <CFWZATID>BL036</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Imprint 1| TEST</CFWWTX60>
+        <CFWZATID>BI010</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Text Case|</CFWWTX60>
+        <CFWZATID>BI037</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Imprint Color| 287 Blue</CFWWTX60>
+        <CFWZATID>BI025</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Imprint Font| Kabel</CFWWTX60>
+        <CFWZATID>BI035</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Location 2|</CFWWTX60>
+        <CFWZATID>BL038</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Logo 2-ID|0</CFWWTX60>
+        <CFWZATID>BL040</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 1|</CFWWTX60>
+        <CFWZATID>BL061</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 2|</CFWWTX60>
+        <CFWZATID>BL062</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 3|</CFWWTX60>
+        <CFWZATID>BL063</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 4|</CFWWTX60>
+        <CFWZATID>BL064</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 5|</CFWWTX60>
+        <CFWZATID>BL065</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Pantone Color 6|</CFWWTX60>
+        <CFWZATID>BL066</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Text Case|</CFWWTX60>
+        <CFWZATID>BI067</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+        <CFWZATID>BI055</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+        <CFWZATID>BI065</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Package Option| Standard Dozen</CFWWTX60>
+        <CFWZATID>BPP00</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Package Logo ID|0</CFWWTX60>
+        <CFWZATID>BL100</CFWZATID>
+        <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000010000001000100001000000100000010010</CFINDCTR>
+        <CFWWTX60>Ball Number| Low #  Custom</CFWWTX60>
+        <CFWZATID>BC023</CFWZATID>
+000000000000000001100000000000000000000000000000001100000000000010000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD20
+        0.00
+000000000000000001100000000000000000000000000000001100000000000010000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD21
+        0.00
+000000000000000001100000000000000000000000000000001100000000000010000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD22
+        0.00
+000000000000000001100000000000000000000000000000001100000000000010000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD23
+        0.00
+000000000000000001100000000000000000000000000000001100000001000000000001000100101000000100001010000
+              435.60
+              435.60
+               36.00-
+Check
+000000000000000001100000000000000000000000000000001100000001000000000001000100101000000100001010000
+              435.60
+              435.60
+                0.00
+     7.752
+     7.752
+              435.60
+              12
+        <OIS1990H>
+000000000000000001100000000000000000000000000000001100000000000000000101000100101000000100001010000
+GB
+USA
+USA
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+8158 8159 10459
+0
+77
+77
+USY
+CHK
+SAPERKINS
+1514
+1314
+USKI
+CSTUS
+04B
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS INC
+000001
+0000000
+USD
+US00200146
+140340
+030
+US00017076
+U01
+US00017076
+3RD
+060
+001
+010
+030
+       7364088
+902355815
+3012054130
+03A
+08/10/16
+08/11/16
+08/11/16
+10/10/16
+08/10/16
+US Dollar
+UPS Ground
+Sarah Perkins
+National Custom
+NA
+Bill Freight to Third Party
+Net 60 Days
+0
+    16.304
+    15.504
+     0.028
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+00/00/00
+08/11/16
+00/00/00
+00/00/00
+12/01/15
+08/11/16
+01/03/18
+        0.00
+08/10/16
+08/10/16
+     7.752
+US
+WI
+847-470-8930
+53105-2300
+060000
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS INC
+No VAS required
+PRO GOLF PREMIUMS
+PRO GOLF PREMIUMS INC
+1
+1
+US4
+211a1r
+000000000000000001100000000000000000000000000000001100000000000000000101000100101000000100001010000
+Acushnet Company
+P.O. Box 88114
+Chicago, IL 60695-1114
+000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100010010000
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+C
+DZ
+MA
+000001
+UST6ASI
+DZ
+     20160810049196200
+AUTO GLASS SERV
+BCT-03-20
+BPA12A6
+20243
+CRP
+      3229750
+0500
+0300
+8158 8159 10459
+0000
+1514
+1314
+Titl Pro V1 Cstm
+XXX
+1
+UOY
+US
+77
+A6
+3362150
+NA
+USKI
+3RD
+Titleist Pro V1 Custom
+CSTUS
+T2024C-12PL
+    1
+00
+00001
+DZ
+0
+03A
+0
+                 8.40
+            12
+              435.60
+UPS Only
+0
+               37.00
+0
+Bill Freight to Third Party
+9506.32.0000
+00
+              3-
+    10
+     20243
+08/22/16
+08/22/16
+08/10/16
+08/10/16
+         0.00
+            12
+            12
+            12
+        492.00
+            12
+Titleist Pro V1 Custom
+     7.752
+     7.752
+US Custom Ball
+No VAS required
+Balls - Finished Goods
+3
+A1
+A110
+A110100
+A110100100
+001
+0
+000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100010010000
+       36.00-
+Logo Fee
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Order Type|</CFWWTX60>
+          <CFWZATID>BC100</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Custom Type| Single Logo</CFWWTX60>
+          <CFWZATID>BC110</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Location 1| Aligned with Side Stamp</CFWWTX60>
+          <CFWZATID>BL001</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Logo 1-ID|20243</CFWWTX60>
+          <CFWZATID>BL010</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Logo 1-Desc| AUTO GLASS SERVICE **ACL**</CFWWTX60>
+          <CFWZATID>BL015</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 1| 1788</CFWWTX60>
+          <CFWZATID>BL031</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 2| 287</CFWWTX60>
+          <CFWZATID>BL032</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 3| ~NA</CFWWTX60>
+          <CFWZATID>BL033</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 4| ~NA</CFWWTX60>
+          <CFWZATID>BL034</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 5| ~NA</CFWWTX60>
+          <CFWZATID>BL035</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 6|</CFWWTX60>
+          <CFWZATID>BL036</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Text Case|</CFWWTX60>
+          <CFWZATID>BI037</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+          <CFWZATID>BI025</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+          <CFWZATID>BI035</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Location 2|</CFWWTX60>
+          <CFWZATID>BL038</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Logo 2-ID|0</CFWWTX60>
+          <CFWZATID>BL040</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 1|</CFWWTX60>
+          <CFWZATID>BL061</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 2|</CFWWTX60>
+          <CFWZATID>BL062</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 3|</CFWWTX60>
+          <CFWZATID>BL063</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 4|</CFWWTX60>
+          <CFWZATID>BL064</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 5|</CFWWTX60>
+          <CFWZATID>BL065</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 6|</CFWWTX60>
+          <CFWZATID>BL066</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Text Case|</CFWWTX60>
+          <CFWZATID>BI067</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+          <CFWZATID>BI055</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+          <CFWZATID>BI065</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Package Option| Standard Dozen</CFWWTX60>
+          <CFWZATID>BPP00</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Package Logo ID|0</CFWWTX60>
+          <CFWZATID>BL100</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Number| Low #  Custom</CFWWTX60>
+          <CFWZATID>BC023</CFWZATID>
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD20
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD21
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD22
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD23
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100011010000
+(CUSTOM PRODUCT ONLY)
+810 KRIFT AVE
+BURLINGTON WI 53105-2300
+PRO GOLF PREMIUMS
+C
+DZ
+MA
+000001
+UST6ASI
+DZ
+     20160810049196300
+AUTO GLASS SERV
+BCT-03-20
+BPA12A6
+20243
+CRP
+      3229751
+0500
+0300
+8158 8159 10459
+0000
+1514
+1314
+Titl Pro V1 High #&apos;s Cstm
+XXX
+1
+UOY
+US
+77
+A6
+3362149
+NA
+USKI
+3RD
+Titleist Pro V1 High #s Custom
+CSTUS
+T2024C-12PH
+    2
+00
+00001
+DZ
+0
+03A
+0
+                 8.40
+            12
+              435.60
+UPS Only
+0
+               37.00
+0
+Bill Freight to Third Party
+9506.32.0000
+00
+              3-
+    10
+     20243
+08/22/16
+08/22/16
+08/10/16
+08/10/16
+         0.00
+            12
+            12
+            12
+        492.00
+            12
+Titleist Pro V1 High #s Custom
+     7.752
+     7.752
+US Custom Ball
+No VAS required
+Balls - Finished Goods
+3
+A1
+A110
+A110100
+A110100100
+001
+0
+000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100011010000
+       36.00-
+Logo Fee
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Order Type|</CFWWTX60>
+          <CFWZATID>BC100</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Custom Type| Single Logo</CFWWTX60>
+          <CFWZATID>BC110</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Location 1| Aligned with Side Stamp</CFWWTX60>
+          <CFWZATID>BL001</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Logo 1-ID|20243</CFWWTX60>
+          <CFWZATID>BL010</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Logo 1-Desc| AUTO GLASS SERVICE **ACL**</CFWWTX60>
+          <CFWZATID>BL015</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 1| 1788</CFWWTX60>
+          <CFWZATID>BL031</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 2| 287</CFWWTX60>
+          <CFWZATID>BL032</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 3| ~NA</CFWWTX60>
+          <CFWZATID>BL033</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 4| ~NA</CFWWTX60>
+          <CFWZATID>BL034</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 5| ~NA</CFWWTX60>
+          <CFWZATID>BL035</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 6|</CFWWTX60>
+          <CFWZATID>BL036</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Text Case|</CFWWTX60>
+          <CFWZATID>BI037</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+          <CFWZATID>BI025</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+          <CFWZATID>BI035</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Location 2|</CFWWTX60>
+          <CFWZATID>BL038</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Logo 2-ID|0</CFWWTX60>
+          <CFWZATID>BL040</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 1|</CFWWTX60>
+          <CFWZATID>BL061</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 2|</CFWWTX60>
+          <CFWZATID>BL062</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 3|</CFWWTX60>
+          <CFWZATID>BL063</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 4|</CFWWTX60>
+          <CFWZATID>BL064</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 5|</CFWWTX60>
+          <CFWZATID>BL065</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Pantone Color 6|</CFWWTX60>
+          <CFWZATID>BL066</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Text Case|</CFWWTX60>
+          <CFWZATID>BI067</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Color|</CFWWTX60>
+          <CFWZATID>BI055</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Imprint Font|</CFWWTX60>
+          <CFWZATID>BI065</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Package Option| Standard Dozen</CFWWTX60>
+          <CFWZATID>BPP00</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Package Logo ID|0</CFWWTX60>
+          <CFWZATID>BL100</CFWZATID>
+          <CFINDCTR>000000000000000001100000000000000000000000000000001100000000000000000001000100001000000100000010010</CFINDCTR>
+          <CFWWTX60>Ball Number| High # Custom</CFWWTX60>
+          <CFWZATID>BC023</CFWZATID>
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD20
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD21
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD22
+        0.00
+000000000000000001100000000000000000000000000000001100000000000000000001000100101000000100001010000
+ProV1 Loyalty Reward N/C Dozen
+USTD23
+        0.00
+000000000000000001100000000000000000000000000000001100000001000000000001000100101000000100001010000
+              871.20
+              871.20
+               72.00-
+Check
+000000000000000001100000000000000000000000000000001100000001000000000001000100101000000100001010000
+              871.20
+              871.20
+                0.00
+    15.504
+    15.504
+              871.20
+              24
+        </OIS1990H>
+      </OIS1990H>
+    </OIS1990H>
+  </OIS199A0>
+</Document>
+</XMLData>
+**End of Script-generated XML. 1089 lines in file.
+**Script Compile/Execute returns 'undefined'
+2016/09/30 19:41:25  9vj3cu6z [RunScript:ScriptOK] Script ran successfully. Returns 0/'undefined'/true
+RunScript Ends. return rc=0
+2016/09/30 19:41:25  9vj3cu6z [RunScript:ProcessEnd] RunScript process completed. Return code: 0

@@ -1,0 +1,559 @@
+var data = {
+  "Line": "Root Name \"Message\"",
+  "RecordType": "Root",
+  "Name": "Message",
+  "Variable": "",
+  "KeepSp": false,
+  "ChildrenList": [
+    {
+      "Line": "Field \"A0DSUSS\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0DSUSS",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PRCOPY\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PRCOPY",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PRHOLD\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PRHOLD",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PRLANC\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PRLANC",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PRLSAD\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PRLSAD",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PRLSID\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PRLSID",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PROUTQ\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PROUTQ",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PRSAVE\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0PRSAVE",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0WDROW3\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0WDROW3",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0WFACDT\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0WFACDT",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0WFIDAT\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0WFIDAT",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0XFDLDT\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0XFDLDT",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0XTDLDT\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0XTDLDT",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZDROW2\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZDROW2",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFBCCC\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFBCCC",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFCONN\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFCONN",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFDIVI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFDIVI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFDLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFDLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFDNNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFDNNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFFACI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFFACI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFIVGP\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFIVGP",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFOPRI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFOPRI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFORTP\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFORTP",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFPAIC\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFPAIC",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFPICD\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFPICD",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFPLRI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFPLRI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFPYNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFPYNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZFWHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZFWHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTCONN\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTCONN",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTDLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTDLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTDNNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTDNNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTFACI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTFACI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTIVGP\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTIVGP",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTOPRI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTOPRI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTORTP\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTORTP",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTPLRI\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTPLRI",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTPYNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTPYNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZTWHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZTWHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZWLITX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0ZWLITX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z1DLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z1DLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z1ORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z1ORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z1WHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z1WHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z2DLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z2DLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z2ORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z2ORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z2WHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z2WHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z3DLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z3DLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z3ORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z3ORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z3WHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z3WHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z4DLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z4DLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z4ORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z4ORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z4WHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z4WHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z5DLIX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z5DLIX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z5ORNO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z5ORNO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0Z5WHLO\" Keepsp",
+      "RecordType": "Field",
+      "Name": "A0Z5WHLO",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZLDLIX\"",
+      "RecordType": "Field",
+      "Name": "A0ZLDLIX",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0ZHDLIX\"",
+      "RecordType": "Field",
+      "Name": "A0ZHDLIX",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PADAT\"",
+      "RecordType": "Field",
+      "Name": "A0PADAT",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0PATIM\"",
+      "RecordType": "Field",
+      "Name": "A0PATIM",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"A0INDCTR\" $A0INDCTR Keepsp",
+      "RecordType": "Field",
+      "Name": "A0INDCTR",
+      "Variable": "$A0INDCTR",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    }
+  ],
+  "Parent": "null"
+}

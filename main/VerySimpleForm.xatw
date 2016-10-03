@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XATW name="Form1" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="plain" configFile="Default-PDF.prt" designVersion="3.0.005.07" designFileVersion="1.0.0.34">
+  <page name="Page1" visible="yes" size="A4" orientation="Portrait">
+    <boundingRect left="0.0 in" top="0.0 in" width="8.267717 in" height="11.692913 in"/>
+    <container name="Container1" visible="yes" shading="none">
+      <boundingRect left="0.2 in" top="0.2 in" width="7.867717 in" height="11.292913 in"/>
+      <border visible="no" color="#000000" thickness="0.008333 in" lineStyle="solid" edges="all" radius="0.0 in"/>
+      <pane name="Pane1" section="main" mandatory="yes" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.001 in">
+        <boundingRect width="7.867717 in" height="4.6 in"/>
+        <border visible="no" color="#000000" thickness="0.008333 in" lineStyle="solid" edges="all" radius="0.0 in"/>
+        <label type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 in" lineSpacing="0.0 in" angle="0" justify="right middle">
+          <boundingRect left="0.7 in" top="0.8 in" width="1.0 in" height="0.37114 in"/>
+          <margin left="0.025 in" right="0.025 in" top="0.02 in" bottom="0.02 in"/>
+          <border visible="no" color="#000000" thickness="0.01 in" lineStyle="solid" edges="all" radius="0.0 in"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="0.5 in"/>
+          <text>Label 2</text>
+        </label>
+        <field name="Field2" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 in" lineSpacing="0.0 in" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.7 in" top="0.8 in" width="1.0 in" height="0.2 in"/>
+          <margin left="0.025 in" right="0.025 in" top="0.02 in" bottom="0.02 in"/>
+          <border visible="no" color="#000000" thickness="0.01 in" lineStyle="solid" edges="all" radius="0.0 in"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="0.5 in"/>
+        </field>
+      </pane><!--Pane1-->
+    </container>
+  </page><!--Page1-->
+<?Design Uom="in"?>
+<?Design GridX="0.1 in"?>
+<?Design GridY="0.1 in"?>
+<?Design GridOriginX="0.0 in"?>
+<?Design GridOriginY="0.0 in"?>
+<?Design TestDataFile=""?>
+<?Design PreviewUserOptions=""?>
+<?Design PreviewFillable="No"?>
+<?Design PreviewHtmlBatOption=""?>
+<?Design DataExplorerFile=""?>
+<?Design DataExplorerDocumentTag="Document"?>
+<?Design DateCreated="2016-09-28 13:35:15 UTC"?>
+<?Design DateModified="2016-09-28 13:36:27 UTC"?>
+<?Design InitialZoom="100"?>
+<?Design InitialPage="Page1"?>
+</XATW>

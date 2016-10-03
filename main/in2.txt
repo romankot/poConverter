@@ -1,0 +1,90 @@
+Version "7"
+// MessageID "0"
+
+// Scripts
+Script 1 "Block"
+  $RowNR=0;
+End
+Script 2 "Block"
+  $RowNR=num($RowNR)+1;
+End
+Script 3 "Block"
+  callblock("Free_Block");
+End
+Script 4 "Block"
+  if (num($RowNR)!=5)
+  skip ();
+End
+Script 5 "Block"
+  $RowNR=0;
+End
+
+//
+PageOut
+SELECTIONORDER301
+// Process
+ Sheet W 297.000 H 210.000 Repeat CPI 10.17 LPI 6.25
+   Text "DPS601" X 5.00 Y 16.26 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Text "Planned Distribution Order. Print" X 79.94 Y 16.26 flip Font "Courier_New" 12 Cp "Ansi" Key "DP60001" WrapKeepSp
+   Text "Date:" X 227.34 Y 16.26 flip Font "Courier_New" 12 Cp "Ansi" Right Key "XLI0100" WrapKeepSp
+   Text "Page:" X 262.31 Y 16.26 flip Font "Courier_New" 12 Cp "Ansi" Key "XLI0300" WrapKeepSp
+   ProcPageOfPages X 277.30 Y 16.26 flip Font "Courier_New" 11 Cp "Ansi" WrapKeepSp
+   Text "Time:" X 227.34 Y 20.32 flip Font "Courier_New" 12 Cp "Ansi" Right Key "XLI0200" WrapKeepSp
+   Text "User:" X 227.34 Y 24.38 flip Font "Courier_New" 12 Cp "Ansi" Right Key "XLI0500" WrapKeepSp
+   Line X 3.35 Y 26.86 W 286.44 H 0.00 flip Outline 0.20;
+   Field "AHZDROW2" X 5.00 Y 20.32 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Field "AHZWLITX" X 72.45 Y 20.32 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Field "AHZDROW3" X 5.00 Y 24.38 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Field "AHDSUSS" X 229.83 Y 24.38 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Field "AHPADAT" X 229.83 Y 16.26 flip abs Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Field "AHPATIM" X 229.83 Y 20.32 flip abs Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+   Frame "FRAME" X 0.00 Y 32.51 W 289.79 H 170.69 flip Outline 0.00 BlockAfter "EndOfReport" NoClip
+    FBlock "DPS6011H" YOffset 4.00 AdvY 6.00 YDist 0.00 5.00 ScriptBefore 1
+      Text "Fr" X 32.48 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WFW01C1" WrapKeepSp
+      Text "To" X 42.47 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WTW02C1" WrapKeepSp
+      Text "Proposl" X 179.87 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WPL11C1" WrapKeepSp
+      Text "Plan" X 204.85 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WDL07C1" WrapKeepSp
+      Text "Rel" X 224.84 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WRE64C1" WrapKeepSp
+      Text "Planned" X 252.32 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WPP05C1" WrapKeepSp
+      Text "Bas" X 274.80 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "WUN02C1" WrapKeepSp
+      Text "Planner" X 5.00 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WPLA1C2" WrapKeepSp
+      Text "Whs" X 32.48 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WFW01C2" WrapKeepSp
+      Text "Whs" X 42.47 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WTW02C2" WrapKeepSp
+      Text "AM" X 52.46 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WAC09C2" WrapKeepSp
+      Text "Item number" X 62.45 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WIT01C2" WrapKeepSp
+      Text "Name" X 102.43 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WNA01C2" WrapKeepSp
+      Text "number" X 182.37 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WPL11C2" WrapKeepSp
+      Text "Del dt" X 199.86 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WDL07C2" WrapKeepSp
+      Text "date" X 222.34 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WRE64C2" WrapKeepSp
+      Text "Sts" X 234.83 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WPS04C2" WrapKeepSp
+      Text "quantity" X 249.82 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WPP05C2" WrapKeepSp
+      Text "U/M" X 274.80 Y 8.13 flip Font "Courier_New" 12 Cp "Ansi" Key "WUN02C2" WrapKeepSp
+    End
+    Block "DPS6011L" YOffset 3.53 AdvY 4.06 BlockBeforeOPF "DPS6011H" BlockAfterOF "DPS6011H" ScriptBefore 2 ScriptAfter 3
+      Field "1LDORESP" X 5.00 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOFWHL" X 32.48 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOTWHL" X 42.47 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOACTP" X 52.46 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOITNO" X 62.45 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LMMITDS" X 102.43 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOPLPN" X 179.87 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LXODLDT" X 199.86 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LXORELD" X 217.34 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOPSTS" X 234.83 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LXOPPQT" X 244.82 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+      Field "1LDOUNMS" X 274.80 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" WrapKeepSp
+    End
+    Block "DPS6011T" YOffset 3.53 AdvY 4.06
+      Field "1TXXLMRK" X 5.00 Y 4.06 flip Font "Courier_New_Bold" 12 Cp "Ansi" WrapKeepSp
+      Field "1TXXPM15" X 49.96 Y 4.06 flip Font "Courier_New_Bold" 12 Cp "Ansi" WrapKeepSp
+      Field "1TXXVALU" X 89.93 Y 4.06 flip Font "Courier_New_Bold" 12 Cp "Ansi" WrapKeepSp
+      Field "1TXXPPQT" X 244.82 Y 4.06 flip Font "Courier_New_Bold" 12 Cp "Ansi" WrapKeepSp
+    End
+    FBlock "EndOfReport" YOffset 3.53 AdvY 4.06 YDist 0.00 4.06
+      Text "*** End of report ***" X 139.90 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "XLI9000" WrapKeepSp
+    End
+    FBlock "Free_Block" YOffset 3.53 ScriptBefore 4 ScriptAfter 5
+      Text " " X 19.99 Y 4.06 flip Font "Arial" 10 Cp "Ansi" WrapKeepSp
+    End
+   End
+ End

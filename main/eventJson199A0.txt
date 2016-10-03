@@ -1,0 +1,274 @@
+var data = {
+  "Line": "Root Name \"Message\"",
+  "RecordType": "Root",
+  "Name": "Message",
+  "Variable": "",
+  "KeepSp": false,
+  "ChildrenList": [
+    {
+      "Line": "Field \"AHDSUSS\" Keepsp",
+      "RecordType": "Field",
+      "Name": "AHDSUSS",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"AHZDROW2\" Keepsp",
+      "RecordType": "Field",
+      "Name": "AHZDROW2",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"AHZDROW3\" Keepsp",
+      "RecordType": "Field",
+      "Name": "AHZDROW3",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"AHZWLITX\" Keepsp",
+      "RecordType": "Field",
+      "Name": "AHZWLITX",
+      "Variable": "",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"AHPADAT\"",
+      "RecordType": "Field",
+      "Name": "AHPADAT",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"AHPATIM\"",
+      "RecordType": "Field",
+      "Name": "AHPATIM",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Field \"AHINDCTR\" $AHINDCTR Keepsp",
+      "RecordType": "Field",
+      "Name": "AHINDCTR",
+      "Variable": "$AHINDCTR",
+      "KeepSp": true,
+      "ChildrenList": [],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Block \"DPS6011L\"",
+      "RecordType": "Block",
+      "Name": "DPS6011L",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [
+        {
+          "Line": "Field \"1LDOACTP\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOACTP",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDOFWHL\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOFWHL",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDOITNO\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOITNO",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDOPLPN\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOPLPN",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDOPSTS\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOPSTS",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDORESP\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDORESP",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDOTWHL\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOTWHL",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LDOUNMS\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LDOUNMS",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LMMITDS\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LMMITDS",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LXODLDT\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LXODLDT",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LXOPPQT\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LXOPPQT",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LXORELD\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1LXORELD",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        },
+        {
+          "Line": "Field \"1LINDCTR\" $1LINDCTR Keepsp",
+          "RecordType": "Field",
+          "Name": "1LINDCTR",
+          "Variable": "$1LINDCTR",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011L"
+        }
+      ],
+      "Parent": "Message"
+    },
+    {
+      "Line": "Block \"DPS6011T\"",
+      "RecordType": "Block",
+      "Name": "DPS6011T",
+      "Variable": "",
+      "KeepSp": false,
+      "ChildrenList": [
+        {
+          "Line": "Field \"1TXXLMRK\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1TXXLMRK",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011T"
+        },
+        {
+          "Line": "Field \"1TXXPM15\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1TXXPM15",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011T"
+        },
+        {
+          "Line": "Field \"1TXXPPQT\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1TXXPPQT",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011T"
+        },
+        {
+          "Line": "Field \"1TXXVALU\" Keepsp",
+          "RecordType": "Field",
+          "Name": "1TXXVALU",
+          "Variable": "",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011T"
+        },
+        {
+          "Line": "Field \"1TINDCTR\" $1TINDCTR Keepsp",
+          "RecordType": "Field",
+          "Name": "1TINDCTR",
+          "Variable": "$1TINDCTR",
+          "KeepSp": true,
+          "ChildrenList": [],
+          "Parent": "DPS6011T"
+        },
+        {
+          "Line": "Block \"New_Block_1\"",
+          "RecordType": "Block",
+          "Name": "New_Block_1",
+          "Variable": "",
+          "KeepSp": false,
+          "ChildrenList": [
+            {
+              "Line": "Field \"New_Field_1\"",
+              "RecordType": "Field",
+              "Name": "New_Field_1",
+              "Variable": "",
+              "KeepSp": false,
+              "ChildrenList": [],
+              "Parent": "New_Block_1"
+            }
+          ],
+          "Parent": "DPS6011T"
+        }
+      ],
+      "Parent": "Message"
+    }
+  ],
+  "Parent": "null"
+}

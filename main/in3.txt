@@ -1,0 +1,947 @@
+// MessageID "0"
+
+// Scripts
+Script 1 "Field"
+  if ($AHINDCTR (73,1)="0" and 
+  ($AHINDCTR (74,1)="0"))
+  {
+  }
+  	else
+  {	
+  	skip();
+  }
+  
+End
+Script 2 "Field"
+  if($AHINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 3 "Field"
+  if($AHINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 4 "Field"
+  if ($AHINDCTR (83,1) = "0")
+  {
+  	skip();
+  }
+End
+Script 5 "Block"
+  $X_Block="1";
+End
+Script 6 "Field"
+  if($1HINDCTR (80,1)="0")
+  {
+  	skip();
+  }
+End
+Script 7 "Field"
+  if($1HINDCTR (81,1)="0")
+  {
+  	skip();
+  }
+End
+Script 8 "Field"
+  if($1HINDCTR (82,1)="0")
+  {
+  	skip();
+  }
+End
+Script 9 "Field"
+  if($1HINDCTR (82,1)="1")
+  {
+  	skip();
+  }
+End
+Script 10 "Field"
+  if($1HINDCTR (80,1)="0")
+  {
+  	skip();
+  }
+End
+Script 11 "Field"
+  if($1HINDCTR (81,1)="0")
+  {
+  	skip();
+  }
+End
+Script 12 "Field"
+  if($1HINDCTR (82,1)="0")
+  {
+  	skip();
+  }
+End
+Script 13 "Field"
+  if($1HINDCTR (82,1)="1")
+  {
+  	skip();
+  }
+End
+Script 14 "Block"
+  $X_Block="3";
+End
+Script 15 "Field"
+  if($3HINDCTR (80,1)="0")
+  {
+  	skip();
+  }
+End
+Script 16 "Field"
+  if($3HINDCTR (81,1)="0")
+  {
+  	skip();
+  }
+End
+Script 17 "Field"
+  if($3HINDCTR (82,1)="0")
+  {
+  	skip();
+  }
+End
+Script 18 "Field"
+  if($3HINDCTR (82,1)="1")
+  {
+  	skip();
+  }
+End
+Script 19 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 20 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 21 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 22 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 23 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 24 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 25 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 26 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 27 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 28 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 29 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 30 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 31 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 32 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 33 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 34 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 35 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 36 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 37 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 38 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 39 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 40 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 41 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 42 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 43 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 44 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 45 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 46 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 47 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 48 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 49 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 50 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 51 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 52 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 53 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 54 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 55 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 56 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 57 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 58 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 59 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 60 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 61 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 62 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 63 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 64 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 65 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 66 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 67 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 68 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 69 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 70 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 71 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 72 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 73 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 74 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 75 "Field"
+  if($3HINDCTR (80,1)="0")
+  {
+  	skip();
+  }
+End
+Script 76 "Field"
+  if($3HINDCTR (81,1)="0")
+  {
+  	skip();
+  }
+End
+Script 77 "Field"
+  if($3HINDCTR (82,1)="0")
+  {
+  	skip();
+  }
+End
+Script 78 "Field"
+  if($3HINDCTR (82,1)="1")
+  {
+  	skip();
+  }
+End
+Script 79 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 80 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 81 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 82 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 83 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 84 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 85 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 86 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 87 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 88 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 89 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 90 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 91 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 92 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 93 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 94 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 95 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 96 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 97 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 98 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 99 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 100 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 101 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 102 "Field"
+  if($3HINDCTR (73,1)="0")
+  {
+  	skip();
+  }
+End
+Script 103 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 104 "Field"
+  if($3HINDCTR (74,1)="0")
+  {
+  	skip();
+  }
+End
+Script 105 "Block"
+  if($X_Block="1")
+  {
+  	CallBlock("APS5161H-F");
+  }
+  else if($X_Block="3")
+  {
+  	CallBlock("APS5163H-F");
+  } 
+  else
+  {
+  	skip();
+  }
+End
+
+//
+PageOut
+SELECTIONORDER301
+// Process W 297.000 H 210.000 Repeat CPI 15.17 LPI 6.25
+   Text "APS516" X 3.35 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Text "AP Pmt Forecast/Age Distribut. Print" X 100.48 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 1 Key "AP51501" WrapKeepSp
+   Text "AP Payment Forecast" X 113.88 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 2 Key "AP51502" WrapKeepSp
+   Text "AP Age Distribution" X 113.88 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 3 Key "AP51503" WrapKeepSp
+   Text "Date:" X 222.73 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" Right Key "XLI0100" WrapKeepSp
+   Text "Page:" X 272.97 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" Right Key "XLI0300" WrapKeepSp
+   ProcPageOfPages X 274.64 Y 16.26 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Text "Time:" X 222.73 Y 20.32 flip Font "Courier_New" 8 Cp "Ansi" Right Key "XLI0200" WrapKeepSp
+   Text "User:" X 222.73 Y 24.38 flip Font "Courier_New" 8 Cp "Ansi" Right Key "XLI0500" WrapKeepSp
+   Text "Cur.." X 272.97 Y 24.38 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 4 Key "WCU0105" WrapKeepSp
+   Line X 289.71 Y 26.60 W -286.36 H 0.00 flip Outline 0.20;
+   Field "AHZDROW2" X 3.35 Y 20.32 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Field "AHZWLITX" X 97.13 Y 20.32 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Field "AHZDROW3" X 3.35 Y 24.38 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Field "AHDSUSS" X 224.40 Y 24.38 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Field "AHWXCUCD" X 274.64 Y 24.38 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Field "AHPADAT" X 224.40 Y 16.26 flip abs Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Field "AHPATIM" X 224.40 Y 20.32 flip abs Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+   Frame "FRAME" X 0.00 Y 32.51 W 289.71 H 170.69 flip Outline 0.00 BlockAfterOF "Ch_Block" NoClip
+    Block "APS5161H" YOffset 3.53 AdvY 12.19 ScriptBefore 5
+      Text "--------------------------- Age distribution ---------------------------" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51601" WrapKeepSp
+      Text "--------------------------- Payment forecast ---------------------------" X 170.81 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51602" WrapKeepSp
+      Text "--------------- Overdue payments ---------------" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51603" WrapKeepSp
+      Text "---------------- Payment due on ----------------" X 200.96 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51604" WrapKeepSp
+      Text ">" X 10.05 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Text "Days" X 20.10 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text "-" X 36.84 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Text "Days" X 46.89 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text "-" X 63.64 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Text "Days" X 75.36 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text "Overdue" X 98.80 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51606" WrapKeepSp
+      Text "Index" X 115.55 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51607" WrapKeepSp
+      Text "Payee" X 125.60 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 6 Key "WPY14C0" WrapKeepSp
+      Text "Supplier" X 125.60 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 7 Key "WSU01C0" WrapKeepSp
+      Text "Supplier invoice no" X 125.60 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 8 Key "WSI17C0" WrapKeepSp
+      Text "Name" X 144.02 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 9 Key "AP51610" WrapKeepSp
+      Text "Total debt" X 180.86 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51608" WrapKeepSp
+      Text "-" X 207.65 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Text "Days" X 217.70 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text "-" X 234.45 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Text "Days" X 244.50 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text ">" X 261.24 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Text "Days" X 271.29 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Variable $1HWPDA13 X 13.40 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA22 X 30.14 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA12 X 40.19 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA21 X 56.94 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA11 X 66.99 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA11 X 200.96 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA21 X 211.00 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA12 X 227.75 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA22 X 237.80 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA13 X 264.59 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+    FBlock "APS5161H-F" YOffset 3.53 AdvY 12.19 YDist 0.00 4.06
+      Text "--------------------------- Age distribution ---------------------------" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51601" WrapKeepSp
+      Text "--------------------------- Payment forecast ---------------------------" X 170.81 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51602" WrapKeepSp
+      Text "--------------- Overdue payments ---------------" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51603" WrapKeepSp
+      Text "---------------- Payment due on ----------------" X 200.96 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51604" WrapKeepSp
+      Text ">" X 10.05 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA13 X 13.40 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 20.10 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Variable $1HWPDA22 X 30.14 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "-" X 36.84 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA12 X 40.19 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 46.89 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Variable $1HWPDA21 X 56.94 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "-" X 63.64 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWPDA11 X 66.99 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 75.36 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text "Overdue" X 98.80 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51606" WrapKeepSp
+      Text "Index" X 115.55 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51607" WrapKeepSp
+      Text "Payee" X 125.60 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 10 Key "WPY14C0" WrapKeepSp
+      Text "Supplier" X 125.60 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 11 Key "WSU01C0" WrapKeepSp
+      Text "Supplier invoice no" X 125.60 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 12 Key "WSI17C0" WrapKeepSp
+      Text "Name" X 144.02 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 13 Key "AP51610" WrapKeepSp
+      Text "Total debt" X 180.86 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51608" WrapKeepSp
+      Variable $1HWADA11 X 200.96 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "-" X 207.65 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA21 X 211.00 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 217.70 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Variable $1HWADA12 X 227.75 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "-" X 234.45 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA22 X 237.80 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 244.50 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+      Text ">" X 261.24 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $1HWADA13 X 264.59 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 271.29 Y 12.19 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51605" WrapKeepSp
+    End
+    FBlock "APS516PH" YOffset 3.53 AdvY 4.06 YDist 0.00 4.06
+      Text "%" X 26.79 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51611" WrapKeepSp
+      Text "%" X 53.59 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51611" WrapKeepSp
+      Text "%" X 80.38 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51611" WrapKeepSp
+      Text "%" X 224.40 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51611" WrapKeepSp
+      Text "%" X 251.20 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51611" WrapKeepSp
+      Text "%" X 277.99 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51611" WrapKeepSp
+    End
+    Block "APS5161L" YOffset 3.53 AdvY 4.06
+      Field "1LW1VALU" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW2VALU" X 30.14 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW3VALU" X 56.94 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW4VALU" X 83.73 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW5VALU" X 112.20 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LWWFLD1" X 125.60 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LWWFLD2" X 125.60 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LWWTX15" X 144.02 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW6VALU" X 170.81 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW8VALU" X 200.96 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW9VALU" X 227.75 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1LW0VALU" X 254.54 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+    Block "APS5161P" YOffset 3.53 AdvY 4.06
+      Field "1PW1PROC" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1PW2PROC" X 30.14 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1PW3PROC" X 56.94 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1PW4PROC" X 200.96 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1PW5PROC" X 227.75 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "1PW6PROC" X 254.54 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+    Block "APS5163H" YOffset 3.53 ScriptBefore 14
+      Text "Payee" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 15 Key "WPY14C0" WrapKeepSp
+      Text "Supplier" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 16 Key "WSU01C0" WrapKeepSp
+      Text "Supplier invoice no" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 17 Key "WSI17C0" WrapKeepSp
+      Text "Name" X 21.77 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 18 Key "AP51610" WrapKeepSp
+      Text "Total debt" X 56.94 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51608" WrapKeepSp
+      Text "-" X 125.60 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 19 WrapKeepSp
+      Text "Overdue" X 92.10 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 20 Key "AP51606" WrapKeepSp
+      Text "Index" X 110.53 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 21 Key "AP51607" WrapKeepSp
+      Text "--------------------------------- Past due payments -------------------------------------" X 118.90 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 22 Key "AP51613" WrapKeepSp
+      Text "Days" X 135.65 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 23 Key "AP51605" WrapKeepSp
+      Text "-" X 152.39 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 24 WrapKeepSp
+      Text "Days" X 162.44 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 25 Key "AP51605" WrapKeepSp
+      Text "-" X 179.19 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 26 WrapKeepSp
+      Text "Days" X 189.23 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 27 Key "AP51605" WrapKeepSp
+      Text "-" X 207.65 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 28 WrapKeepSp
+      Text "Days" X 217.70 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 29 Key "AP51605" WrapKeepSp
+      Text "-" X 234.45 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 30 WrapKeepSp
+      Text "Days" X 244.50 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 31 Key "AP51605" WrapKeepSp
+      Text "------------------" X 249.52 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 32 Key "AP51614" WrapKeepSp
+      Text ">" X 261.24 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 33 WrapKeepSp
+      Text "Days" X 271.29 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 34 Key "AP51605" WrapKeepSp
+      Text "------------------" X 207.65 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 35 Key "AP51614" WrapKeepSp
+      Text "--------------------------------- Payment due in ----------------------------------------" X 77.03 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 36 Key "AP51612" WrapKeepSp
+      Text "Days" X 229.43 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 37 Key "AP51605" WrapKeepSp
+      Text ">" X 219.38 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 38 WrapKeepSp
+      Text "Days" X 202.63 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 39 Key "AP51605" WrapKeepSp
+      Text "-" X 192.58 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 40 WrapKeepSp
+      Text "Days" X 175.84 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 41 Key "AP51605" WrapKeepSp
+      Text "-" X 165.79 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 42 WrapKeepSp
+      Text "Days" X 147.37 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 43 Key "AP51605" WrapKeepSp
+      Text "-" X 137.32 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 44 WrapKeepSp
+      Text "Days" X 120.57 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 45 Key "AP51605" WrapKeepSp
+      Text "-" X 110.53 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 46 WrapKeepSp
+      Text "Days" X 93.78 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 47 Key "AP51605" WrapKeepSp
+      Text "-" X 83.73 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 48 WrapKeepSp
+      Variable $3HWADB11 X 123.92 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 49 WrapKeepSp
+      Variable $3HWADB21 X 133.97 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 50 WrapKeepSp
+      Variable $3HWADB12 X 149.04 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 51 WrapKeepSp
+      Variable $3HWADB22 X 160.77 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 52 WrapKeepSp
+      Variable $3HWADB13 X 175.84 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 53 WrapKeepSp
+      Variable $3HWADB23 X 187.56 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 54 WrapKeepSp
+      Variable $3HWADB14 X 204.31 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 55 WrapKeepSp
+      Variable $3HWADB24 X 216.03 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 56 WrapKeepSp
+      Variable $3HWADB15 X 231.10 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 57 WrapKeepSp
+      Variable $3HWADB25 X 242.82 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 58 WrapKeepSp
+      Variable $3HWADB16 X 269.62 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 59 WrapKeepSp
+      Variable $3HWADA16 X 227.75 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 60 WrapKeepSp
+      Variable $3HWADA25 X 200.96 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 61 WrapKeepSp
+      Variable $3HWADA15 X 189.23 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 62 WrapKeepSp
+      Variable $3HWADA24 X 174.16 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 63 WrapKeepSp
+      Variable $3HWADA14 X 162.44 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 64 WrapKeepSp
+      Variable $3HWADA23 X 145.69 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 65 WrapKeepSp
+      Variable $3HWADA13 X 133.97 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 66 WrapKeepSp
+      Variable $3HWADA22 X 118.90 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 67 WrapKeepSp
+      Variable $3HWADA12 X 107.18 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 68 WrapKeepSp
+      Variable $3HWADA21 X 92.10 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 69 WrapKeepSp
+      Variable $3HWADA11 X 80.38 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Right ScriptBefore 70 WrapKeepSp
+    End
+    FBlock "APS5163H-F" YOffset 3.53 AdvY 8.13 YDist 0.00 4.06
+      Text "--------------------------------- Payment due in -----------------------------" X 77.03 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 71 Key "AP51612" WrapKeepSp
+      Text "--------------------------------- Past due payments --------------------------" X 118.90 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 72 Key "AP51613" WrapKeepSp
+      Text "------------------" X 207.65 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 73 Key "AP51614" WrapKeepSp
+      Text "------------------" X 249.52 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 74 Key "AP51614" WrapKeepSp
+      Text "Payee" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 75 Key "WPY14C0" WrapKeepSp
+      Text "Supplier" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 76 Key "WSU01C0" WrapKeepSp
+      Text "Supplier invoice no" X 3.35 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 77 Key "WSI17C0" WrapKeepSp
+      Text "Name" X 21.77 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 78 Key "AP51610" WrapKeepSp
+      Text "Total debt" X 58.61 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" Key "AP51608" WrapKeepSp
+      Variable $3HWADA11 X 77.03 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Overdue" X 93.78 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 79 Key "AP51606" WrapKeepSp
+      Text "-" X 83.73 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADA21 X 87.08 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 93.78 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 80 Key "AP51605" WrapKeepSp
+      Variable $3HWADA12 X 103.83 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Index" X 110.53 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 81 Key "AP51607" WrapKeepSp
+      Text "-" X 107.18 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADA22 X 113.88 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADB11 X 118.90 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 120.57 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 82 Key "AP51605" WrapKeepSp
+      Text "-" X 125.60 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADB21 X 128.95 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADA13 X 130.62 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 135.65 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 83 Key "AP51605" WrapKeepSp
+      Text "-" X 137.32 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADA23 X 140.67 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADB12 X 145.69 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 147.37 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 84 Key "AP51605" WrapKeepSp
+      Text "-" X 152.39 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADB22 X 155.74 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADA14 X 159.09 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 162.44 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 85 Key "AP51605" WrapKeepSp
+      Text "-" X 165.79 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADA24 X 169.14 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADB13 X 172.49 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 175.84 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 86 Key "AP51605" WrapKeepSp
+      Text "-" X 179.19 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADB23 X 182.54 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADA15 X 185.88 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 189.23 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 87 Key "AP51605" WrapKeepSp
+      Text "-" X 192.58 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADA25 X 195.93 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADB14 X 200.96 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 202.63 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 88 Key "AP51605" WrapKeepSp
+      Text "-" X 207.65 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADB24 X 211.00 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 217.70 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 89 Key "AP51605" WrapKeepSp
+      Text ">" X 219.38 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADA16 X 222.73 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Variable $3HWADB15 X 227.75 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 231.10 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 90 Key "AP51605" WrapKeepSp
+      Text "-" X 234.45 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADB25 X 237.80 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 244.50 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 91 Key "AP51605" WrapKeepSp
+      Text ">" X 261.24 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Variable $3HWADB16 X 266.27 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp;
+      Text "Days" X 272.97 Y 8.13 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 92 Key "AP51605" WrapKeepSp
+    End
+    FBlock "APS516RH" YOffset 3.53 AdvY 4.06 YDist 0.00 4.06
+      Text "%" X 100.48 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 93 Key "AP51611" WrapKeepSp
+      Text "%" X 127.27 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 94 Key "AP51611" WrapKeepSp
+      Text "%" X 142.34 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 95 Key "AP51611" WrapKeepSp
+      Text "%" X 154.07 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 96 Key "AP51611" WrapKeepSp
+      Text "%" X 169.14 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 97 Key "AP51611" WrapKeepSp
+      Text "%" X 182.54 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 98 Key "AP51611" WrapKeepSp
+      Text "%" X 195.93 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 99 Key "AP51611" WrapKeepSp
+      Text "%" X 209.33 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 100 Key "AP51611" WrapKeepSp
+      Text "%" X 224.40 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 101 Key "AP51611" WrapKeepSp
+      Text "%" X 236.12 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 102 Key "AP51611" WrapKeepSp
+      Text "%" X 251.20 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 103 Key "AP51611" WrapKeepSp
+      Text "%" X 277.99 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" ScriptBefore 104 Key "AP51611" WrapKeepSp
+    End
+    Block "APS5163L" YOffset 3.53 AdvY 4.06
+      Field "3LWWFLD1" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LWWFLD2" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LWWTX15" X 21.77 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW6VALU" X 48.56 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW1VALU" X 77.03 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW4VALU" X 78.71 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW2VALU" X 103.83 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW5VALU" X 107.18 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW1VALE" X 118.90 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW3VALU" X 130.62 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW2VALE" X 145.69 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW8VALU" X 159.09 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW3VALE" X 172.49 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW9VALU" X 185.88 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW8VALE" X 200.96 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW0VALU" X 212.68 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW9VALE" X 227.75 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3LW0VALE" X 254.54 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+    Block "APS5163P" YOffset 3.53 AdvY 4.06
+      Field "3PW1PROC" X 77.03 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW2PROC" X 103.83 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW1PROE" X 118.90 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW3PROC" X 130.62 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW2PROE" X 145.69 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW4PROC" X 159.09 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW3PROE" X 172.49 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW5PROC" X 185.88 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW4PROE" X 200.96 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW6PROC" X 212.68 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW5PROE" X 227.75 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "3PW6PROE" X 254.54 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+    Block "APS516EN" YOffset 3.53 AdvY 4.23
+      Text "End of report" X 137.32 Y 4.06 flip Font "Courier_New" 12 Cp "Ansi" Key "XLI9000" WrapKeepSp
+    End
+    FBlock "Ch_Block" YOffset 3.53 ScriptBefore 105
+    End
+    Block "APS51611" YOffset 3.53 AdvY 4.23
+      Field "11WWPM15" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "11WWFLD" X 30.14 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "11WWTX40" X 48.56 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+    Block "APS51633" YOffset 3.53 AdvY 4.23
+      Field "33WWPM15" X 3.35 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "33WWFLD" X 30.14 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+      Field "33WWTX40" X 48.56 Y 4.06 flip Font "Courier_New" 8 Cp "Ansi" WrapKeepSp
+    End
+   End
+ End
